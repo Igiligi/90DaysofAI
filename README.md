@@ -12,3 +12,4 @@ I'm a First Class Civil Engineer transitioning into AI/ML. This repository docum
 
 ## 🛠️ Projects
 *   **Day 1:** User Info Script
+*   **Day 2:** (Coming soon)
