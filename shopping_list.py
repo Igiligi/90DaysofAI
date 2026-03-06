@@ -1,6 +1,10 @@
 # Day 4 of my 90Day AI/ML Journey
 # Shopping List App: Add, remove, view, and sort items
+from multiprocessing.reduction import duplicate
 from random import choice
+
+from shopping_list2 import clear_list
+
 
 def show_menu():
     """Displays the Menu"""
@@ -11,7 +15,8 @@ def show_menu():
     print("2. ❌ Remove shopping item")
     print("3. 👁 View shopping list/items")
     print("4. 🛒 Sort shopping list/items")
-    print("5. Exist")
+    print("5. ✂ Clear shopping list/items")
+    print("6. Exist")
 
 def add_item(shopping_list):
     """Adds item to the list"""
@@ -35,16 +40,65 @@ def add_item(shopping_list):
         print(f"✅ '{item}' is successfully added  to your list.")
     return shopping_list
 
-def remove_item():
+def remove_item(shopping_list):
     """To remove item from the list"""
     print("--- REMOVE ITEM---")
 
-    pass
-def view_item():
-    pass
-def sort_item():
-    pass
 
+    if len(shopping_list) == 0:
+        print(f"Their is no item in your list to remove")
+        return shopping_list
+
+    else:
+        print(f"📝 Your Current list ({len(shopping_list)} items):")
+        for item in sorted(shopping_list):  # Iteration: continues to print out the items in the list from first to last
+            print(f"   • {item}")
+
+        remove_item = input("\n Enter item to remove: ").strip().lower()
+        if remove_item in shopping_list:
+            shopping_list.remove(remove_item)
+            print(f"'{remove_item}' removed from the list")
+        else:
+            print(f"'{remove_item}' not in list")
+
+    return shopping_list
+
+def view_item(shopping_list):
+    """To view the items in your list"""
+    if len(shopping_list) == 0:
+        print(f"\n Their is no item in your list")
+        return shopping_list
+    else:
+        print(f"\n ---ITEMS IN YOUR LIST---")
+        for item in shopping_list:
+            print(f" ∎ {item}")
+
+    return shopping_list
+
+def sort_item(shopping_list):
+    """To sort your items alphabetically"""
+    if len(shopping_list) == 0:
+        print(f"\n Their is no item in your list")
+        return shopping_list
+    else:
+        print(f"\n ---YOUR SORTED LIST---")
+        for item in sorted(shopping_list):
+            print(f" ∎ {item}")
+
+def clear_list(shopping_list):
+    if len(shopping_list) == 0:
+        print(f"\n Their is no item in your list to clear")
+
+    elif len(shopping_list) > 0:
+        clear_list = input("\nAre you sure you want to clear ALL items in your list? YES OR NO? ").strip().lower()
+        if clear_list == "yes":
+            shopping_list.clear()
+            print(f"\nYour shopping list is cleared!")
+
+        else:
+            print(f"Shopping List NOT Cleared!")
+
+    return shopping_list
 # The main program
 def main():
     """loop function"""
@@ -52,21 +106,24 @@ def main():
 
     while True:
         show_menu()
-        choice = input("\n Enter your choice (1-5): ").strip()
+        choice = input("\n Enter your choice (1-6): ").strip()
 
         if choice == "1":
             add_item(shopping_list)
 
         elif choice == "2":
-            remove_item()
+            remove_item(shopping_list)
 
         elif choice == "3":
-            view_item()
+            view_item(shopping_list)
 
         elif choice == "4":
-            sort_item()
+            sort_item(shopping_list)
 
         elif choice == "5":
+            clear_list(shopping_list)
+
+        elif choice == "6":
             print("\nThank you for using the SHOPPING LIST APP 🤗. Happy shopping!")
             if shopping_list:
                 print(f"📝 Your final list ({len(shopping_list)} items):")
@@ -78,7 +135,7 @@ def main():
             print("\n❌ Invalid choice. Please enter 1, 2, 3, 4, or 5.")
 
         # Pause after actions (except exit)
-        if choice in ["1", "2", "3", "4"]:
+        if choice in ["1", "2", "3", "4", "5"]:
             input("\n⏎ Press Enter to continue...")
 
 
