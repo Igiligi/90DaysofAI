@@ -10,6 +10,7 @@ I'm a First Class Civil Engineer transitioning into AI/ML. This repository docum
 | 2 | [name-formatter.py](https://github.com/Igiligi/90DaysofAI/blob/main/name_formatter.py) | Formats user names with proper casing, character count, and word count|  `.upper()`,  `.lower()`,  `.title()`, input validation |
 | 3 | [engineering_calculator.py](https://github.com/Igiligi/90DaysofAI/blob/main/engineering_calculator.py) | Engineering calculator with area, volume, conversion | Functions, error handling, math library, loops, validation |
 | 4 | [shopping_list.py](https://github.com/Igiligi/90DaysofAI/blob/main/shopping_list.py) | Interactive shopping list with add, remove, view, and sort | Lists, list methods, sorted(), enumerate(), input validation |
+| 5 | [student_grades.py](https://github.com/Igiligi/90DaysofAI/blob/main/student_grades.py) | Student grades tracker with dictionary operations | Dictionaries, .items(), max() with key, sum(), average calculation |
 
 *(I will add more projects here each day...)*
 
@@ -17,4 +18,5 @@ I'm a First Class Civil Engineer transitioning into AI/ML. This repository docum
 *   **Day 1:** User Info Script
 *   **Day 2:** Name formatter Script
 *   **Day 3:** Engineering Calculator Script
-*   **Day 4:** Shopping List Script ( *To be continued tomorrow...* )
+*   **Day 4:** Shopping List Script
+*   **Day 5:** Student Grades Manager Script ( *To be continued...* )
