@@ -14,6 +14,9 @@ I'm a First Class Civil Engineer transitioning into AI/ML. This repository docum
 | 6 | Script Review | Reviewed scripts from Day 1 to Day 5 | Script Explanation |
 | 7 | Sunday | Day of Rest | Mind Relaxation |
 | 8 | Data Analytics Lesson | 3MTT entry assessment, computer fundamentals | Data types, project planning, research analysis |
+| 9 | linkedin-post.md | TechCrush bootcamp goals post – 90DaysofAI update | Personal branding, goal setting, public accountability |
+| 10 | mvp-planning.md | Waste Management Dashboard planning – 3MTT NextGen Challenge | Problem identification, data sources, dashboard design |
+| 11 | interview-prep.md | Texas State PhD interview with Dr. Guo – Human Factors, AI, wearable sensors | Human Factors, Human-AI Interaction, fatigue detection, predictive modeling |
 
 *(I will add more projects here each day...)*
 
@@ -25,4 +28,7 @@ I'm a First Class Civil Engineer transitioning into AI/ML. This repository docum
 *   **Day 5:** Student Grades Manager Script
 *   **Day 6:** Script Review
 *   **Day 7:** Sunday
-*   **Day 8:** Took Data Analytics Lesson ( *To be continued...* )
+*   **Day 8:** Took Data Analytics Lesson
+*   **Day 9:** LinkedIn Post
+*   **Day 10:** MVP Planning
+*   **Day 11:** Interview Prep ( *To be continued...* )
