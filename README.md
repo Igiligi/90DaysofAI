@@ -86,4 +86,4 @@ I'm a First Class Civil Engineer transitioning into AI/ML. This repository docum
 
 ---
 
-*This README is updated daily as I progress through my 90-day journey.* 🚀
+*This README is updated daily or weekly as I progress through my 90-day journey.* 🚀
