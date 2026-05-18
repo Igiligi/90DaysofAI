@@ -1,6 +1,8 @@
 # 90 Days of AI/ML
 
-I'm a First Class Civil Engineer transitioning into AI/ML. This repository documents my 90-day structured learning journey, with a focus on practical, hybrid skills in Data Science and AI Engineering.
+I'm a First Class Civil Engineer transitioning into Data Analytics & AI/ML. This repository documents my 90-day structured learning journey, with a focus on practical, hybrid skills in Data Science and AI Engineering.
+
+**Current Status:** Day 64 of 90 | 🚀 Capstone Project Started: Waste Image Classifier for ESWaT
 
 ## 📅 Daily Log
 
@@ -58,6 +60,18 @@ I'm a First Class Civil Engineer transitioning into AI/ML. This repository docum
 | 50 | 3MTT | Fundamental Data Analysis | Data visualization principles, charts, graphs |
 | 51 | 3MTT | Fundamental Data Analysis | Exploratory Data Analysis (EDA), summary statistics |
 | 52 | 3MTT | Fundamental Data Analysis | Data-driven decision making, insights communication |
+| 53 | TechCrush AI Class | Computer Vision Fundamentals | Image acquisition, preprocessing, feature extraction, interpretation (classification, detection, segmentation) |
+| 54 | TechCrush AI Class | CNNs in Practice | Conv2D (filters, kernels), MaxPooling2D, Flatten, Dense, model.summary() |
+| 55 | TechCrush AI Class | Types of Neural Networks | ANN (Feedforward), CNN (spatial data), RNN/LSTM (sequential), Autoencoders (anomaly detection), GANs (generative) |
+| 56 | TechCrush AI Class | Object Detection & Segmentation (YOLOv8) | YOLO (You Only Look Once), bounding boxes vs pixel masks, ultralytics library |
+| 57 | 3MTT/DHF | Data Cleaning Mini Project | Scored 95% on hands-on data cleaning |
+| 58 | 3MTT/DHF | Week 1 Assessment | Scored 100% |
+| 59 | Cisco | Data Analytics Essentials (Excel, SQL, Tableau) | Mini projects on Excel formulas, SQL queries, Tableau dashboards |
+| 60 | 3MTT/DHF | Week 2 Assessment | Scored 100% |
+| 61 | Cisco | Data Analytics Essentials (continued) | Practical labs, data visualization, portfolio building |
+| 62 | Sunday | Day of Rest & Review | Reviewed week's learning, planned ahead |
+| 63 | Cisco | Data Analytics Essentials Certification | **Completed! 80% pass** |
+| 64 | TechCrush AI Class | Capstone Project Work Begins | **Waste image classifier for ESWaT** using CNN (transfer learning) |
 
 ## 🛠️ Projects
 
@@ -75,14 +89,19 @@ I'm a First Class Civil Engineer transitioning into AI/ML. This repository docum
 - **Days 12-46:** TechCrush AI/ML Engineering Bootcamp
 - **Days 47-48:** Cisco Data Analysis Labs
 - **Days 49-52:** 3MTT Fundamental Data Analysis
+- **Days 53-56:** TechCrush Computer Vision & Object Detection
+- **Day 57-60:** 3MTT/DHF Data Cleaning & Assessments (100%, 100%)
+- **Days 59-63:** Cisco Data Analytics Essentials (Excel, SQL, Tableau) – **Completed with 80%**
+- **Day 64:** TechCrush Capstone Project – Waste Image Classifier for ESWaT
 
 ## 📚 Learning Sources
 
 | Source | Focus | Days |
 |--------|-------|------|
-| TechCrush AI/ML Engineering Bootcamp | AI, ML, Deep Learning, Computer Vision, Data Preprocessing | 12-46 |
+| TechCrush AI/ML Engineering Bootcamp | AI, ML, Deep Learning, Computer Vision, Capstone Project | 12-46, 53-56, 64 |
 | Cisco Data Analysis Labs | Asking the right question, portfolio requirements | 47-48 |
-| 3MTT | Fundamental Data Analysis (data types, visualization, EDA, insights) | 49-52 |
+| Cisco Data Analytics Essentials | Excel, SQL, Tableau, data cleaning, visualization | 59-63 (Completed) |
+| 3MTT/DHF | Fundamental Data Analysis, data cleaning, assessments | 49-52, 57-60 |
 
 ---
 
